@@ -1,0 +1,60 @@
+/*
+
+Created by Alejandro Griffith
+Do not copy!
+
+*/
+
+/* For Maintenance */
+
+.container {
+    margin-top: 320px;
+    --background: #1b1b1b;
+    --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    --foreground-bt: #4f64cb;
+    --color: #ffffff;
+}
+
+
+h1 {
+    font-size: 5rem;
+    color: var(--foreground-bt);
+}
+
+.description {
+    position: fixed;
+    text-align: center;
+    left: 41%;
+    top: 40%;
+    font-size: 1.5rem;
+    color: var(--color);
+}
+
+a {
+    text-decoration: none;
+}
+
+.sm-links {
+    position: fixed;
+    display: flex;
+    text-align: center;
+    grid-gap: 2em;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+}
+
+
+.icons {
+    font-size: 5rem;
+    color: white;
+    transition: color 0.2s ease-in-out;
+}
+
+.icons:hover {
+    color: #4f64cb;
+}
+
+
+
